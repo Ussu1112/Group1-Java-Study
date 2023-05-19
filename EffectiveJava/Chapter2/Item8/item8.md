@@ -18,7 +18,6 @@ public class FinalizerExample {
     protected void finalize() throws Throwable {
         try {
             System.out.println("Finalize of Sub Class");
-            // release resources, perform cleanup ;
         } catch (Throwable throwable) {
             throw throwable;
         } finally {
@@ -54,7 +53,6 @@ public class CleanerExample {
         @Override
         public void run() {
             System.out.println("Cleaning " + name);
-            // release resources, perform cleanup;
         }
     }
 
