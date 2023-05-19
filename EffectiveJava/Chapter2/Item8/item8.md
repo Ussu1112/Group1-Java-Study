@@ -1,4 +1,4 @@
-# finalizer와 cleaner란 무엇인가
+# 1. finalizer와 cleaner란 무엇인가
 finalizer와 cleaner는자원 정리를 위한 방법을 제공한다. 이들은 다루기 어렵고, 알맞게 사용하지 않으면 예상치 못한 결과를 초래할 수 있으므로 주의해서 사용해야 한다.
 
 ## 1.1. finalizer
